@@ -1,0 +1,129 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-color: #ffcc00;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.header__nav {
+    margin-top: 10px;
+}
+
+.header__nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.header__nav a:hover {
+    color: #ff6600;
+}
+
+
+.main {
+    padding: 20px;
+}
+
+.production-catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+.buy-btn:hover {
+    background-color: #218838;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+h1, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 13px 0;
+    white-space: pre-line;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Goudy Bookletter 1911";
+    line-height: 1.2;
+}
+
+aside p {
+    margin: 5px 0;
+}
+
+body, h1, h3, p {
+    margin: 10px 0;
+    padding: 0;
+}
