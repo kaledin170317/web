@@ -16,6 +16,7 @@ body {
     width: 100%;
     top: 0;
     z-index: 100;
+    flex-basis: auto;
 }
 
 .header__content {
@@ -43,6 +44,7 @@ body {
     color: #333;
     padding: 10px;
     transition: color 0.3s;
+    flex-basis: 50px;
 }
 
 .header__nav a:hover {
@@ -167,7 +169,9 @@ main {
         align-items: center;
     }
     .card {
-        flex: 1 1 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
         max-width: 100%;
     }
     .gallery {
