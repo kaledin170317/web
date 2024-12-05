@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const row = document.createElement('tr');
             row.innerHTML = `<td>${language === 'ru' ? 'День' : 'Day'} ${i}</td>`;
             for (let j = 1; j <= lessons; j++) {
-                row.innerHTML += `<td></td>`;
+                row.innerHTML += `<td>Привет</td>`;
             }
             table.appendChild(row);
         }
