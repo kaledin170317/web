@@ -219,13 +219,18 @@ main {
     color: #666;
 }
 
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .swiper-slide img {
     width: 40%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
 .swiper-container {
     width: 80%;
     max-width: 1200px;
