@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструктор расписания</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="constructor.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div class="logo_and_pic">
+        <a class="header__logo">
+            <img class="pic" src="serogi.png"/>
+        </a>
+        <h1>Serega's Pasta Title</h1>
+    </div>
+    <nav class="header__nav">
+        <a href="index.html">Начало</a>
+        <a href="prices.html">Цены</a>
+        <a href="memes.html">Приколы</a>
+        <a href="constructor.html">Конструктор</a>
+    </nav>
+</header>
+<main>
+    <h2>Конструктор расписания</h2>
+    <form id="tableForm">
+        <label>
+            Количество дней:
+            <input type="number" id="days" min="1" max="7" required>
+        </label>
+        <label>
+            Максимальное количество занятий:
+            <input type="number" id="lessons" min="1" max="10" required>
+        </label>
+        <label>
+            Язык:
+            <select id="language">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+        </label>
+        <button type="submit">Сгенерировать</button>
+    </form>
+    <div id="generatedTable"></div>
+</main>
+<footer class="footer">
+    <p>&copy; 2024 Serega's Pasta. All rights reserved.</p>
+</footer>
+</body>
+</html>
